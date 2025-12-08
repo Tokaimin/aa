@@ -6,6 +6,20 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>運行情報ラベル</title>
 <style>
+   .wrapper {
+    display: flex;
+    align-items: center;   /* 縦位置を中央揃え */
+    gap: 16px;             /* ラベルと文字の間のすき間 */
+  }
+
+  .label {
+    background-color: #e53935; /* 赤 */
+    color: #fff;               /* 白文字 */
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+  }
 .label {
   display: inline-block;
   background-color: #e53935; /* 赤 */
@@ -25,5 +39,6 @@
 <body>
   <h1>鈴鹿急行電鉄ホームページ</h1>
   <span class="label">運行情報</span>
+   <span>あいうえおかきくけこさしすせそ</span>
 </body>
 </html>
