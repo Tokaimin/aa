@@ -39,6 +39,6 @@
 <body>
   <h1>鈴鹿急行電鉄ホームページ</h1>
   <span class="label">運行情報</span>
-   <span>あいうえおかきくけこさしすせそ</span>
+   <span>現在、10分以上の遅れはございません</span>
 </body>
 </html>
